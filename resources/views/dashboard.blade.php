@@ -25,7 +25,7 @@
                             <tr>
                                 <th  scope="row">{{$i++}}</th>
                                 <td>{{$row->name}}</td>
-                                <td>{{$row->email}}</td>
+                                <td>{{$row->email}}111</td>
                                 <td>{{Carbon\Carbon::parse($row->created_at)->diffForHumans()}}</td>
                             </tr>
                         @endforeach                    
